@@ -1,9 +1,9 @@
 //originalCmt stores the comments received from end customers (Its customers actual comment)
-var originalCmt = fields.get('q_aa_wheelchair_cmt');
+var originalCmt = fields.get('<field>');
 //profanityFreeComment stores profanity free comment calling removeProfanity()
 var profanityFreeComment = removeProfanity(originalCmt);
 //Stores the profanityFreeComment in the new Qfield
-fields.set('q_aa_wheelchair_comment_profanity_free', profanityFreeComment);
+fields.set('<field>', profanityFreeComment);
 
 //function to remove profanity words from the string
 function removeProfanity(inputComment) {
@@ -26,11 +26,11 @@ true;
 
 /* Version 2 */
 //originalCmt stores the comments received from end customers (Its customers actual comment)
-var originalCmt = fields.get('q_aa_wheelchair_cmt');
+var originalCmt = fields.get('<field>');
 //profanityFreeComment stores profanity free comment calling removeProfanity()
 var profanityFreeComment = removeProfanity(originalCmt);
 //Stores the profanityFreeComment in the new Qfield
-fields.set('q_aa_wheelchair_comment_profanity_free', profanityFreeComment);
+fields.set('<field>', profanityFreeComment);
 
 //function to remove profanity words from the string
 function removeProfanity(inputComment) {
@@ -50,11 +50,11 @@ true;
 
 /*Version 3*/
 //originalCmt stores the comments received from end customers (Its customers actual comment)
-var originalCmt = fields.get('q_aa_wheelchair_cmt');
+var originalCmt = fields.get('<field>');
 //profanityFreeComment stores profanity free comment calling removeProfanity()
 var profanityFreeComment = removeProfanity(originalCmt);
 //Stores the profanityFreeComment in the new Qfield
-fields.set('q_aa_wheelchair_comment_profanity_free', profanityFreeComment);
+fields.set('<field>', profanityFreeComment);
 
 //function to remove profanity words from the string
 function removeProfanity(originalCmt) {
